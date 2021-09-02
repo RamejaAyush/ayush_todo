@@ -1,10 +1,11 @@
-import "./App.css";
+import "./styles/App.css";
+import Nav from "./Components/Nav";
 
 function App() {
  return (
-  <header>
-   <h1>Hi Ayush</h1>
-  </header>
+  <>
+   <Nav />
+  </>
  );
 }
 
