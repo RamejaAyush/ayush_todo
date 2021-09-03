@@ -15,9 +15,6 @@ nav .navLinks {
 }
 
 .navLinks a {
- color: rgb(218, 218, 218);
+ color: rgb(255, 255, 255);
  font-size: 25px;
-}
-.navLinks a:hover {
- color: white;
 }
