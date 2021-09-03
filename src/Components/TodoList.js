@@ -15,6 +15,9 @@ const TodoList = ({ todos, setTodos, filteredTodos }) => {
      />
     ))}
    </div>
+   <div className="result">
+    <p>{todos.length} tasks</p>
+   </div>
   </div>
  );
 };
