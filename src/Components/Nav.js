@@ -4,10 +4,10 @@ const Nav = () => {
  return (
   <>
    <nav>
-    <h1> Hi, there this is your Todo List</h1>
+    <h1> Hi, there this is your Todo List </h1>
     <div className="navLinks">
      <a href="#invalid">
-      <i class="fab fa-github"></i>
+      <i className="fab fa-github"></i>
      </a>
     </div>
    </nav>
