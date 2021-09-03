@@ -6,7 +6,7 @@ const Nav = () => {
    <nav>
     <h1> Hi, there this is your Todo List </h1>
     <div className="navLinks">
-     <a href="#invalid">
+     <a href="https://github.com/RamejaAyush">
       <i className="fab fa-github"></i>
      </a>
     </div>
