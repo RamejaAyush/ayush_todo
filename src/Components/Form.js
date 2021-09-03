@@ -1,6 +1,6 @@
 import "../styles/Form.css";
 
-const Form = ({ inputText, setInputText, todos, setTodos }) => {
+const Form = ({ inputText, setInputText, todos, setTodos, setStatus }) => {
  const inputTextHandler = (e) => {
   setInputText(e.target.value);
  };
@@ -14,7 +14,8 @@ const Form = ({ inputText, setInputText, todos, setTodos }) => {
  };
 
  const statusHandler = (e) => {
-  console.log(e.target.value);
+  //   console.log(e.target.value);
+  setStatus(e.target.value);
  };
 
  return (
